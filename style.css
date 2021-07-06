@@ -2,17 +2,23 @@ body{ margin: 0;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 25px;}
  
-
+.top-part{padding-top: 100px;
+padding-bottom: 100px;}
 .flexible-container{ display: flex;}
 
 .half-width{width:50%;
-    padding-left:8%;}
+    padding-left:8%;
+}
 
+.half-width img{padding-bottom: 200px ;}
 
 .heading-font-color{color: #FB9149}
 
 .regular-font{font-size: 20px;
               margin-bottom: 50px;}
+
+              .regular-font2{font-size: 15px;
+                margin-bottom: 50px;}
 
 
 .link-button{text-decoration: none;
@@ -21,3 +27,40 @@ font-size: 25px;}
     border-radius: 29px;
     color: white;
     font-weight: 700;}
+
+   .middle-para{float: right;}
+
+   .flexible-container1{width: 100%;
+   height: 400px;
+   
+    
+    background-image: url(images/shapes/7.png),
+   url(images/female/Person\ Image.png);
+   background-repeat: no-repeat;
+   background-position: left;}
+
+
+
+
+   .recipie{text-align: center;}
+  
+
+   .recipi-content{display: flex;}
+
+background: size 80%;}
+
+
+
+
+
+   .recipi-area{ box-shadow:10px 10px 40px rgb(65, 39, 39);
+
+    width: 33%;
+  margin-left: 4%;
+margin-right: 4%; 
+padding-left: 20px;  }
+.footer-cl{text-align: center;
+background-color:rgb(12, 9, 9) ;}
+.img-upload img{width:80%; }
+.foo{color: coral;}
+.foter-p-color{color: burlywood;}
